@@ -14,6 +14,7 @@ namespace Car.Api.Controllers
         {
             _carService = carService;
         }
+        [HttpPost]
 
         public string GenerateToken(CarModel model)
         {
